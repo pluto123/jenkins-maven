@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class TestBankAccount {
     
-    @Test
+    @test
     public void testDebitWithSufficientFounds() {
         BankAccount account = new BankAccount(10);
         double amount = account.debit(5);
