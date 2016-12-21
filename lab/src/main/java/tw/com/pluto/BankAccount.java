@@ -1,6 +1,6 @@
 package tw.com.pluto;
 
-public class BackAccount {
+public class BankAccount {
     private double balance;
     
     public BankAccount(double balance) {
